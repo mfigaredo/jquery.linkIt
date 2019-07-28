@@ -1,0 +1,28 @@
+{
+    "name": "linkIt",
+    "title": "jQuery LinkIt Plugin",
+    "description": "Simple jQuery plugin that allows to attach a link to any element",
+    "keywords": [
+        "link",
+        "anchor"
+    ],
+    "version": "0.2.0",
+    "author": {
+        "name": "Miguel Figaredo",
+        "url": "https://github.com/mfigaredo"
+    },
+    "maintainers": [
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/mfigaredo/jquery.linkIt/blob/master/LICENSE"
+        }
+    ],
+    "homepage": "https://github.com/mfigaredo/jquery.linkIt",
+    "docs": "https://github.com/mfigaredo/jquery.linkIt",
+    "download": "https://github.com/mfigaredo/jquery.linkIt",
+    "dependencies": {
+        "jquery": ">=1.9"
+    }
+}

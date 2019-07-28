@@ -1,16 +1,16 @@
 /**
  * name: LinkIt
  * author: Miguel Figaredo
- * version: 1.0.0
+ * version: 0.2.0
  * license: MIT
  * 
  * JQuery LinkIt Plugin
- * 
+ * Simple jQuery plugin that allows to attach a link to any element
  */
 
  (function($){
     $.fn.linkIt = function(options) {
-        // alert(this.html());
+        
         // Default settings
         var settings = $.extend({
             href : null,
@@ -21,7 +21,6 @@
             decoration: 'none'
         }, options);
 
-        // alert(settings.whatever);
         // Validate
         if(settings.href === null) {
             console.log('You need href option for linkIt to work');
@@ -42,8 +41,6 @@
                     'text-decoration': settings.decoration,
                 });
         });
-
-
     }
 
  }(jQuery));
